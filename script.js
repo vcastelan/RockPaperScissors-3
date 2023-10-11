@@ -75,14 +75,14 @@ function game() {
     playRound(playerChoice, computerChoice);
     // if game is over tally wins.
     if (computerWin === 5) {
-      output.textContent = "Game over. You Lost!";
+      output.textContent = "Game over. You Lost! Can't let it end like this, right? Hit refresh to start a new game, or make a selection.";
       player.textContent = "Player wins totals " + playerWin;
       computer.textContent = "Computer wins totals " + computerWin;
       round = 0;
       computerWin = 0;
       playerWin = 0;
     } else if (playerWin === 5) {
-      output.textContent = "You did it!! Congrats, you won!!!";
+      output.textContent = "You did it!! Congrats, you won!!! Hit refresh to start a new game, or make a selection.";
       player.textContent = "Player wins totals " + playerWin;
       computer.textContent = "Computer wins totals " + computerWin;
       round = 0;

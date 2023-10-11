@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.choices {
+  display: flex;
+  gap: 70px;
+}
+
+.btn {
+  border-radius: 25%;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  border-color: red;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
